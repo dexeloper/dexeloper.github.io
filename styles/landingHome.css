@@ -1,0 +1,190 @@
+@media (min-width: 992px) and (max-width: 1300px) {
+  .homeRightContainer{
+    width: 500px;
+    height: 425px;
+  }
+
+  .homeMainSVG{
+    width: 450px;
+  }
+  .homeHeadLine{
+    font-size: 34px;
+  }
+  .homeSubHeadLine {
+    font-size: 16.5px;
+  }
+  .homePoints{
+    font-size: 15.75px;
+  }
+  .homeLeftContainer{
+    max-width: 550px;
+  }
+  .homePointsContainer{
+    margin-top: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1083px) {
+  .homePointsContainer{
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 1083px) and (max-width: 1300px) {
+  .homePointsContainer{
+    margin-top: 70px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .homeRightContainer{
+    width: 600px;
+    height: 525px;
+  }
+
+  .homeMainSVG{
+    width: 550px;
+  }
+  .homeHeadLine{
+    font-size: 48px;
+  }
+  .homeSubHeadLine {
+    font-size: 18px;
+  }
+  .homePoints{
+    font-size: 18px;
+  }
+
+  .homePointsContainer{
+    margin-top: 70px;
+    padding-left: 15px;
+  }
+  .homeLeftContainer{
+    max-width: 650px;
+  }
+}
+
+
+.homeContainer{
+  max-width: 1375px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto 70px auto;
+  padding: 0px 30px;
+}
+
+.homeHeadLine{
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  word-spacing: 2.5px;
+  margin-top: 0px;
+}
+
+.homeSubHeadLine {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #6e6e6e;
+  letter-spacing: 0.1px;
+  word-spacing: 1px;
+}
+
+.homePointsContainer{
+  border: 3px solid #0085ff;
+  -webkit-box-shadow: 0px 0.5px 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow:    0px 0.5px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow:         0px 0.5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.homeButtonsContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 420px;
+  margin-top: 45px;
+}
+
+.strAProHomeBtn {
+  width: 215.25px;
+  height: 43.25px;
+  background-color: #0085ff;
+  border: 2.5px solid #0085ff;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  padding-bottom: 1px;
+  -webkit-box-shadow: 0px 0.5px 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow:    0px 0.5px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow:         0px 0.5px 10px 0px rgba(0, 0, 0, 0.2);
+  transition: all 0.25s ease-in-out;
+}
+
+.homeIconFix{
+  font-size: 14px;
+  margin: 2px 0px 0px 7.5px;
+}
+
+.strAProHomeBtn:hover {
+  border: 2.5px solid #0085ff;
+  color: #0085ff;
+  background-color: white;
+  transition: all 0.25s ease-in-out;
+}
+
+.talkHomeBtn{
+  width: 160px;
+  height: 43.25px;
+  background-color: white;
+  border: 2.5px solid #0085ff;
+  color: #0085ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  padding-bottom: 1px;
+  -webkit-box-shadow: 0px 0.5px 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow:    0px 0.5px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow:         0px 0.5px 10px 0px rgba(0, 0, 0, 0.2);
+  transition: all 0.25s ease-in-out;
+}
+
+.talkHomeBtn:hover > .circle-right-fix {
+  transform: translateX(5px);
+  transition: all 0.25s ease-in-out;
+}
+
+.circle-right-fix{
+  font-size: 16px;
+  margin-top: 2.5px;
+  transition: all 0.25s ease-in-out;
+}
+
+
+.homeRightContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 15px;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 30px;
+  -webkit-box-shadow: 0px 30px 50px 2px rgba(186, 186, 186, 0.25);
+  -moz-box-shadow:    0px 30px 50px 2px rgba(186, 186, 186, 0.25);
+  box-shadow:         0px 30px 50px 2px rgba(186, 186, 186, 0.25);
+}
+
+
+.homePoints{
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: #0085ff;
+}
