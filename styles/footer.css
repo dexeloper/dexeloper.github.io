@@ -1,0 +1,113 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  width: 100vw;
+  height: 420px;
+  padding: 30px 10px;
+}
+
+.fsKickOff{
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  margin: 2.5px 42.5px 20px 0px;
+  text-align: center;
+  text-decoration: underline;
+  transition: all 0.2s ease-in;
+}
+
+.fsKickOff:hover {
+  color: #0085ff;
+  transition: all 0.2s ease-in;
+}
+
+.fsIconFix{
+  margin: 0px 0px -5px 5px;
+  font-size: 34px;
+}
+
+.footerBrandContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 20px 0px;
+  width: 80vw;
+}
+
+.footerLogoContainer {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 30px rgba(0,0,0,0.3) inset;
+}
+
+.logoHeadSubHead {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.footerBrandName {
+  color: white;
+  font-size: 32px;
+  font-family: "Lato", sans-serif;
+  margin: 15px 0px 0px 10px;
+}
+
+.footerSlogan {
+  color: white;
+  font-size: 13.5px;
+  font-family: "Lato", sans-serif;
+  margin: -5px 0px 0px 0px;
+  opacity: 0.3;
+}
+
+.footerNavLinksContainer {
+  width: 950px;
+  height: 225px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerPerHeadingContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerLinkHead {
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footerLink {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  margin: 5px 0px;
+  opacity: 0.5;
+  transition: all 0.2s ease-in;
+}
+
+.footerLink:hover {
+  opacity: 1;
+  transition: all 0.2s ease-in;
+}
+
+.footerCopyrightNotice {
+  color: white;
+  margin: 10px 0px 0px 0px;
+  font-family: sans-serif;
+  font-size: 16px;
+  opacity: 0.5;
+}

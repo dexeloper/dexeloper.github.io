@@ -1,0 +1,125 @@
+.fsContainer {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 85px;
+  /*background: url(../svgs/fs.svg) no-repeat;
+  background-position: center;
+  background-size: cover;*/
+}
+
+.fsContainer:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background: inherit;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform-origin: top left;
+  transform: skewY(-4deg);
+}
+
+.readyContainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  background-color: #0093E9;
+  background-image: linear-gradient(135deg, #0093E9 0%, #80D0C7 100%);
+  border-radius: 20px;
+  width: 1000px;
+  height: 275px;
+  box-sizing: border-box;
+  padding: 0px 50px;
+  box-shadow: 0 12px 38px rgba(0,0,0,0.1), 0 8px 12px rgba(0,0,0,0.15);
+}
+
+.fsSGQ {
+  font-family: "Lato", sans-serif;
+  font-size: 32px;
+  color: white;
+}
+
+.fsCovered {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  color: white;
+  margin-top: -16px;
+}
+
+.fsExtras {
+  width: 700px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  color: white;
+  margin: 20px 0px;
+}
+
+.fsInputContainer{
+  width: 400px;
+  height: 37.5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0px;
+  padding: 4px 6px 4px 15px;
+  background-color: white;
+  border-radius: 40px;
+  box-shadow: 0 12px 38px rgba(0,0,0,0.1), 0 8px 12px rgba(0,0,0,0.15);
+}
+
+.emailDropInput {
+  width: 280px;
+  height: 30px;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  outline: none;
+  border: none;
+}
+
+::placeholder {
+  color: #c9c9c9;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #c9c9c9;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #c9c9c9;
+}
+
+.fsInputSubmit {
+  width: 100px;
+  height: 35px;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  border: 2.5px solid #0085ff;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  background-color: #0085ff;
+  color: white;
+  padding-bottom: 2.5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.fsInputSubmit:hover {
+  background-color: white;
+  color: #0085ff;
+  box-shadow: 0 0px 38px rgba(0,0,0,0.1), 0 0px 12px rgba(0,0,0,0.15);
+  transition: all 0.2s ease-in;
+}

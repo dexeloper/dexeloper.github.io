@@ -1,14 +1,19 @@
+.s2Background{
+  width: 100vw;
+  padding: 120px 0px;
+}
+
 .s2MainContainer{
   width: 1350px;
-  height: 640px;
-  margin: 70px auto;
+  min-height: 640px;
+  margin: 0px auto;
   box-sizing: border-box;
   padding: 20px 50px;
   border-radius: 30px;
   background-color: white;
-  -webkit-box-shadow: 0px 25px 40px 0px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow:    0px 25px 40px 0px rgba(0, 0, 0, 0.05);
-  box-shadow:         0px 25px 40px 0px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0px 55px 60px 0px #e6e6e6;
+  -moz-box-shadow:    0px 55px 60px 0px #e6e6e6;
+  box-shadow:         0px 55px 60px 0px #e6e6e6;
 }
 
 .howItWorks{
@@ -90,4 +95,19 @@
   -webkit-box-shadow: 0px 10px 70px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow:    0px 10px 70px 0px rgba(0, 0, 0, 0.1);
   box-shadow:         0px 10px 70px 0px rgba(0, 0, 0, 0.1);
+}
+
+.s2Btn{
+  margin: 30px auto 10px auto;
+}
+
+.strProLinkS2 {
+  color: #0085ff;
+  margin-top: 0.2px;
+  text-decoration: none;
+}
+
+.s2IconFix {
+  font-size: 14px;
+  color: #66a0ff;
 }
