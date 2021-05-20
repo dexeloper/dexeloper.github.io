@@ -508,7 +508,7 @@
 .wavesBottom {
   margin: auto;
   padding: 20px 0px 40px 0px;
-  width: 100vw;
+  width: 100%;
   height: 50px;
   display: flex;
   justify-content: center;
