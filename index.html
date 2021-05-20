@@ -2,13 +2,16 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>StellarEffex | Design Redefined.</title>
     <script src="https://kit.fontawesome.com/f6c59a561f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./styles/landingNav.css">
+    <link rel="stylesheet" href="./styles/navBlock.css">
     <link rel="stylesheet" href="./styles/landingHome.css">
     <link rel="stylesheet" href="./styles/scrollOne.css">
     <link rel="stylesheet" href="./styles/scrollTwo.css">
+    <link rel="stylesheet" href="./styles/scrollThree.css">
     <link rel="stylesheet" href="./styles/finalScroll.css">
     <link rel="stylesheet" href="./styles/footer.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -19,6 +22,15 @@
     <nav class="stellarHomeNavBar">
       <div class="navbarInContainer">
         <div class="stellarHomeLogoContainer">
+          <div id="header-menu" class="menu-circle">
+            <div class="menu-open" id="menu-open"></div>
+            <div class="menu-open-button" id="menuOpenButton">
+              <span class="lines line-1"></span>
+              <span class="lines line-2"></span>
+              <span class="lines line-3"></span>
+              <span id="ham-close">X</span>
+            </div>
+          </div>
           <svg class="stellarHomeLogo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 513.76 463.411">
             <g id="Group_67" data-name="Group 67" transform="translate(-536.29 -541.572)">
               <ellipse id="Ellipse_110" data-name="Ellipse 110" cx="256.88" cy="42.93" rx="256.88" ry="42.93" transform="translate(536.29 919.124)" fill="#04f" opacity="0.14"/>
@@ -55,12 +67,36 @@
           StellarEffex.
         </div>
         <div class="navRightInInContainer">
-          <a href="#" class="startAProNavBtn" >Get Started <i class="fas fa-bolt navIconFix"></i></a>
-          <a href="#" class="freeQuoteNavBtn" >Talk to us <i class="far fa-arrow-alt-circle-right navIconFix"></i></a>
-          <div class="linksContainer">
+          <a href="#" id="nav-get-started" class="startAProNavBtn" ><span class="hamNavModBtnText">Get Started</span> <i id="navIconRemove" class="fas fa-bolt navIconFix"></i></a>
+          <a href="#" id="nav-talk-to-us" class="freeQuoteNavBtn" >Talk to us <i class="far fa-arrow-alt-circle-right navIconFix"></i></a>
+          <div class="linksContainer" id="links-container">
+            <a href="#" class="navbarLinks" >Log In</a>
             <a href="#" class="navbarLinks" >Pricing</a>
             <a href="#" class="navbarLinks" >Our Work</a>
-            <a href="#" class="navbarLinks" >Specialities</a>
+            <a class="navbarLinks" id="spcDropBtn" style="cursor: pointer;" ><i class="fas fa-angle-down"></i>Specialities</a>
+            <div class="specialitiesContainer">
+              <div class="specialitiesListContainer" id="spcDrop" >
+                <a href="#" class="spcListItem">
+                  Website Design / Landing Page
+                </a>
+                <a href="#" class="spcListItem">
+                  App and Web Product Design (UI/UX)
+                </a>
+                <a href="#" class="spcListItem">
+                  Presentation Design
+                </a>
+                <a href="#" class="spcListItem">
+                  Pitch Deck
+                </a>
+                <a href="#" class="spcListItem">
+                  Case Study
+                </a>
+                <a href="#" class="spcListItem">
+                  Document
+                </a>
+                <a href="#" class="startNowBtnSPC">Start Now<i class="fas fa-bolt spcIconFix"></i></a hre>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -68,6 +104,41 @@
     <!--Element 1 NavBar -->
 
     <!--Element 2 Home -->
+    <div id="navigation-block" class="navigationBlock">
+      <div class="hamNavContainer">
+        <div class="hamNavLinksContainer">
+          <a id="ham-nav-login" href="#" style="text-decoration: none;">
+            <div class="hamNavLinks">Log In</div>
+            <div class="navHamUnderline"></div>
+          </a>
+          <a id="ham-nav-work" href="#" style="text-decoration: none;">
+            <div class="hamNavLinks">Our Work</div>
+            <div class="navHamUnderline"></div>
+          </a>
+          <a id="ham-nav-pricing" href="#" style="text-decoration: none;">
+            <div class="hamNavLinks">Pricing</div>
+            <div class="navHamUnderline"></div>
+          </a>
+          <a class="spcHamNavContainer" href="#" style="text-decoration: none;">
+            <div id="spc-link-container">
+              <div id="ham-nav-specialities" class="hamNavLinks"><i class="fas fa-angle-down"></i>Specialities</div>
+              <div class="navHamUnderline"></div>
+            </div>
+            <div class="hamNavSpcServicesContainer">
+              <a href="#" class="hamNavSpcServices">Website Design / Landing Page<span class="hamNavUnderline"></span></a>
+              <a href="#" class="hamNavSpcServices">App and Web Product Design<span class="hamNavUnderline"></span></a>
+              <a href="#" class="hamNavSpcServices">Presentation Design<span class="hamNavUnderline"></span></a>
+              <a href="#" class="hamNavSpcServices">Pitch Deck<span class="hamNavUnderline"></span></a>
+              <a href="#" class="hamNavSpcServices">Case Study<span class="hamNavUnderline"></span></a>
+              <a href="#" class="hamNavSpcServices">Document<span class="hamNavUnderline"></span></a>
+            </div>
+          </a>
+        </div>
+        <div id="ham-nav-talk" class="hamNavButtonContainer">
+          <a href="#" class="navHamTalkBtn">Talk to us</a>
+        </div>
+      </div>
+    </div>
     <div class="homeContainer">
       <div class="homeLeftContainer">
         <h1 class="homeHeadLine">Make your brand standout<br class="hideHomeHeadBreak"> with <span style="color: #6666ff">StellarEffex.</span></h1>
@@ -82,7 +153,7 @@
           <p class="homePoints"><i style="color: #00f208; margin-right: 5px; font-size: 18px" class="far fa-check-circle"></i>Exceptionally transparent and fair pricing system.</p>
         </div>
       </div>
-      <div class="homeRightContainer">
+      <div class="homeRightContainer" id="home-right-container">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="homeMainSVG" viewBox="0 0 676.443 561.5">
           <defs>
             <filter id="Rectangle_37" x="193.616" y="0" width="444.759" height="208.079" filterUnits="userSpaceOnUse">
@@ -939,7 +1010,7 @@
             </div>
             <div class="redefineListpts">
               <h1 class="redefineListno">3</h1>
-              <p class="redefineListPoint">No reluctant subscriptions involved, pay as you go for each project. This will efficiently help you scale your budget every month as you only have to pay when you require us.</p>
+              <p class="redefineListPoint">Pay as you go for each project (for one low cost, of course). This will efficiently help you scale your budget every month as you only have to pay when you require us.</p>
             </div>
             <div class="redefineListpts">
               <h1 class="redefineListno">4</h1>
@@ -1057,9 +1128,58 @@
     <!--Element 4 Scroll 2 -->
 
 
-    <!--Element 5 Scroll 3
-      <svg height="100%" width="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,400 C 0,400 0,200 0,200 C 114.5263157894737,203.14832535885168 229.0526315789474,206.29665071770336 313,200 C 396.9473684210526,193.70334928229664 450.3157894736843,177.96172248803828 545,174 C 639.6842105263157,170.03827751196172 775.684210526316,177.85645933014354 894,194 C 1012.315789473684,210.14354066985646 1112.9473684210527,234.61244019138755 1201,237 C 1289.0526315789473,239.38755980861245 1364.5263157894738,219.6937799043062 1440,200 C 1440,200 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#ffffffff" class="transition-all duration-300 ease-in-out delay-150"></path></svg>
-    Element 5 Scroll 3 -->
+    <!-- Element 5 Scroll 3 -->
+      <div class="s3Container">
+        <h1 class="s3Header">Drive your business growth<br>with the best dedicated designers</h1>
+        <p class="s3SubHeader">Whether you're an established enterprise or a growing start-up, discover the best designers for your projects and scale your budget in a completely flexible way.</p>
+        <div class="">
+          <div class="serviceListBox">
+            <div class="serviceCard">
+              <div class="serviceImgContainer">
+
+              </div>
+              <h2 class="serviceHeader">Web Design</h2>
+              <p class="serviceSubHeader">Landing Page Design with a clean and concise UI.</p>
+            </div>
+            <div class="serviceCard">
+              <div class="serviceImgContainer">
+
+              </div>
+              <h2 class="serviceHeader">UI/UX Design</h2>
+              <p class="serviceSubHeader">Visually appealing Interface and Experience Design.</p>
+            </div>
+            <div class="serviceCard">
+              <div class="serviceImgContainer">
+
+              </div>
+              <h2 class="serviceHeader">Presentation Design</h2>
+              <p class="serviceSubHeader">High-Quality Presentation Designs that are neat and dynamic.</p>
+            </div>
+            <div class="serviceCard">
+              <div class="serviceImgContainer">
+
+              </div>
+              <h2 class="serviceHeader">Pitch Deck</h2>
+              <p class="serviceSubHeader">A Stellar Pitch Deck is all you need to increase your success rate.</p>
+            </div>
+            <div class="serviceCard">
+              <div class="serviceImgContainer">
+
+              </div>
+              <h2 class="serviceHeader">Case Study</h2>
+              <p class="serviceSubHeader">Engineer trust with a powerful Case Study.</p>
+            </div>
+            <div class="serviceCard">
+              <div class="serviceImgContainer">
+
+              </div>
+              <h2 class="serviceHeader">Document</h2>
+              <p class="serviceSubHeader">Pristine design clearly illustrating the most complex issues.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Element 5 Scroll 3 -->
 
 
 
@@ -1072,7 +1192,7 @@
           <input placeholder="Your email address" type="email" class="emailDropInput"> <!--Shift to form and input-->
           <button type="submit" class="fsInputSubmit">Submit</button>
         </div>
-        <p class="fsExtras">We are always there for you at <u>sales@stellareffex.com</u> and for instant queries you may talk to us using the <u>live chat at bottom right corner</u>.</p>
+        <p class="fsExtras">We are always there for you at <a href="mailto:sales@stellareffex.com" style="color: white;">sales@stellareffex.com</a> and for instant queries you may talk to us using the <u>live chat at bottom right corner</u>.</p>
       </div>
       <div class="fsQuestionsContainer">
 
@@ -1082,11 +1202,9 @@
     <!--Element 6 Final Scroll -->
 
 
-    <!--Element 7 Footer -->
-    <div class="footer">
-      <!--<div class="footerLogoContainer">
+    <!--Element 7 Footer
 
-      </div>-->
+    <div class="footer">
       <a href="#" class="fsKickOff">Kick off with StellarEffex today for free <i class="far fa-arrow-alt-circle-right fsIconFix"></i></a>
 
       <div class="footerBrandContainer">
@@ -1136,13 +1254,16 @@
         <div class="footerPerHeadingContainer">
           <p class="footerLinkHead">Get in touch</p>
           <a href="#" class="footerLink">Contact Sales</a>
-          <a href="#" class="footerLink">sales@stellareffex.com</a>
+          <a href="mailto:sales@stellareffex.com" class="footerLink">sales@stellareffex.com</a>
         </div>
         <div class="footerPerHeadingContainer">
           <p class="footerLinkHead">Services</p>
-          <a href="#" class="footerLink">X Design</a>
-          <a href="#" class="footerLink">Y Design</a>
-          <a href="#" class="footerLink">Z Design</a>
+          <a href="#" class="footerLink">Web Design</a>
+          <a href="#" class="footerLink">UI/UX Design</a>
+          <a href="#" class="footerLink">Presentation Design</a>
+          <a href="#" class="footerLink">Pitch Deck</a>
+          <a href="#" class="footerLink">Case Study</a>
+          <a href="#" class="footerLink">Document</a>
         </div>
         <div class="footerPerHeadingContainer">
           <p class="footerLinkHead">Company</p>
@@ -1161,7 +1282,7 @@
       <p class="footerCopyrightNotice">© StellarEffex 2021. All rights reserved.</p>
     </div>
 
-    <!--Element 7 Footer -->
+    Element 7 Footer -->
 
 
 
@@ -1171,4 +1292,6 @@
   </body>
 
   <script src="./scripts/s1SliderScript.js"></script>
+  <script src="./scripts/spcDropDown.js"></script>
+  <script src="./scripts/hamburger.js"></script>
 </html>

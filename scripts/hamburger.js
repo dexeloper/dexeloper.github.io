@@ -1,0 +1,19 @@
+$("#navigation-block").hide();
+$(".hamNavContainer").hide();
+$("#ham-close").hide();
+$("#header-menu").click(function(){
+  $("#navigation-block").slideToggle();
+  $(".lines").fadeToggle();
+  $("#ham-close").fadeToggle();
+  $(".hamNavContainer").fadeToggle(1500);
+});
+
+$(".hamNavSpcServicesContainer").hide();
+$("#ham-nav-specialities").click(function(){
+  $("#ham-nav-talk").slideToggle();
+  $(".hamNavSpcServicesContainer").slideToggle();
+  $("#ham-nav-login").slideToggle();
+  $("#ham-nav-work").slideToggle();
+  $("#ham-nav-pricing").slideToggle();
+  $("#spc-link-container").toggleClass("hamNavSpcAddClass");
+});

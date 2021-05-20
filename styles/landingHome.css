@@ -1,7 +1,141 @@
-@media (min-width: 992px) and (max-width: 1300px) {
+@media (max-width: 480px) {
+  .homeButtonsContainer{
+    flex-direction: column;
+    height: 120px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hideHomeHeadBreak{
+    display: none;
+  }
+
+  .homeHeadLine {
+    width: 90vw;
+    font-size: 36px;
+    text-align: center;
+  }
+  .homeSubHeadLine {
+    text-align: center;
+    width: 85vw;
+    font-size: 15px;
+  }
+  .homeLeftContainer {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .homeContainer{
+    margin: 40px auto 70px auto;
+    justify-content: center;
+  }
+  .homePointsContainer{
+
+    width: 70vw;
+    margin-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #home-right-container{
+    display: none;
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 760px) {
+  .homeHeadLine {
+    font-size: 38px;
+    text-align: center;
+  }
+  .homeSubHeadLine {
+    text-align: center;
+    width: 500px;
+  }
+  .homeLeftContainer {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .homeContainer{
+    margin: 40px auto 70px auto;
+    justify-content: center;
+  }
+  .homePointsContainer{
+    width: 450px;
+    margin-top: 60px;
+    padding-left: 20px;
+    padding-right: 25px;
+  }
+  #home-right-container{
+    display: none;
+  }
+}
+
+
+@media (min-width: 760px) and (max-width: 991.5px) {
+  .homeHeadLine {
+    font-size: 48px;
+    text-align: center;
+  }
+  .homeSubHeadLine {
+    text-align: center;
+    width: 700px;
+  }
+  .homeLeftContainer {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .homeContainer{
+    margin: 40px auto 70px auto;
+    justify-content: center;
+  }
+  .homePointsContainer{
+    margin-top: 60px;
+    padding-left: 20px;
+    padding-right: 25px;
+  }
+  #home-right-container{
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1129px) {
   .homeRightContainer{
     width: 500px;
-    height: 425px;
+    height: 450px;
+    margin-left: 30px;
+  }
+  .homeMainSVG{
+    width: 450px;
+  }
+  .homeHeadLine{
+    font-size: 34px;
+  }
+  .homeSubHeadLine {
+    font-size: 16.5px;
+  }
+  .homePoints{
+    font-size: 15.75px;
+  }
+  .homeLeftContainer{
+    max-width: 550px;
+  }
+  .homePointsContainer{
+    margin-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (min-width: 1129px) and (max-width: 1300px) {
+  .homeRightContainer{
+    width: 500px;
+    height: 440px;
+    margin-left: 30px;
   }
 
   .homeMainSVG{
@@ -20,7 +154,7 @@
     max-width: 550px;
   }
   .homePointsContainer{
-    margin-top: 70px;
+    margin-top: 60px;
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -28,13 +162,23 @@
 
 @media (min-width: 992px) and (max-width: 1083px) {
   .homePointsContainer{
-    margin-top: 50px;
+    margin-top: 30px;
+  }
+  .homeContainer{
+    margin: 40px auto 70px auto;
+    padding: 0px 30px;
+    justify-content: space-between;
   }
 }
 
 @media (min-width: 1083px) and (max-width: 1300px) {
   .homePointsContainer{
-    margin-top: 70px;
+    margin-top: 60px;
+  }
+  .homeContainer{
+    margin: 40px auto 70px auto;
+    padding: 0px 30px;
+    justify-content: space-between;
   }
 }
 
@@ -42,6 +186,7 @@
   .homeRightContainer{
     width: 600px;
     height: 525px;
+    margin-left: 30px;
   }
 
   .homeMainSVG{
@@ -64,16 +209,18 @@
   .homeLeftContainer{
     max-width: 650px;
   }
+  .homeContainer{
+    margin: 40px auto 70px auto;
+    padding: 0px 30px;
+    justify-content: space-between;
+  }
 }
 
 
 .homeContainer{
   max-width: 1375px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin: 40px auto 70px auto;
-  padding: 0px 30px;
 }
 
 .homeHeadLine{
@@ -97,10 +244,16 @@
   -webkit-box-shadow: 0px 0.5px 10px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow:    0px 0.5px 10px 0px rgba(0, 0, 0, 0.2);
   box-shadow:         0px 0.5px 10px 0px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.homePointsContainer:hover {
+  box-shadow: 0 0px 28px rgba(0, 255, 251,0.5), 0 0px 10px rgba(0, 255, 251,0.4);
 }
 
 .homeButtonsContainer{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   width: 420px;
@@ -176,7 +329,6 @@
   padding: 0px 15px;
   background-color: white;
   border-radius: 20px;
-  margin-left: 30px;
   -webkit-box-shadow: 0px 30px 50px 2px rgba(186, 186, 186, 0.25);
   -moz-box-shadow:    0px 30px 50px 2px rgba(186, 186, 186, 0.25);
   box-shadow:         0px 30px 50px 2px rgba(186, 186, 186, 0.25);

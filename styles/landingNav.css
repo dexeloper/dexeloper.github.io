@@ -1,4 +1,93 @@
+@media (max-width: 480px) {
+  .hamNavModBtnText {
+    display: none;
+  }
+  #nav-get-started {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+  }
+  #navIconRemove {
+    margin: 0px;
+  }
+}
 
+@media (max-width: 576px) {
+  #links-container {
+    display: none;
+  }
+  #nav-talk-to-us {
+    display: none;
+  }
+  .navRightInInContainer {
+    width: 0px;
+  }
+
+  .stellarHomeNavBar{
+    height: 60px;
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 770.5px) {
+  #links-container {
+    display: none;
+  }
+  .navRightInInContainer {
+    width: 300px;
+  }
+  #nav-talk-to-us {
+    display: none;
+  }
+  .stellarHomeNavBar{
+    height: 75px;
+  }
+}
+
+@media (min-width: 771px) and (max-width: 992px) {
+  #links-container {
+    display: none;
+  }
+  .navRightInInContainer {
+    width: 300px;
+  }
+  .stellarHomeNavBar{
+    height: 75px;
+  }
+}
+
+@media (min-width: 992.5px) {
+  .navRightInInContainer {
+    width: 650px;
+  }
+  .stellarHomeNavBar{
+    height: 75px;
+  }
+  #header-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 771px) {
+  .navbarInContainer{
+    margin: 0px 30px 0px 5px;
+    width: 94.5vw;
+  }
+}
+
+@media (min-width: 771px) and (max-width: 1300px) {
+  .navbarInContainer{
+    margin: 0px 30px 0px 20px;
+    width: 94.5vw;
+  }
+}
+
+@media (min-width: 1300px) {
+  .navbarInContainer{
+    margin: 0px 30px 0px 16.5px;
+    width: 1375px;
+  }
+}
 html, body {
   margin: 0px;
   padding: 0px;
@@ -16,7 +105,6 @@ body {
   align-items: center;
   background-color: #ffffff;
   width: 100vw;
-  height: 75px;
   -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 133, 255, 0.3);
   -moz-box-shadow:    0px 0px 15px 0px rgba(0, 133, 255, 0.3);
   box-shadow:         0px 0px 15px 0px rgba(0, 133, 255, 0.3);
@@ -26,8 +114,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1375px;
-  margin: 0px 30px;
 }
 
 .stellarHomeLogoContainer{
@@ -47,6 +133,8 @@ body {
   width: 140px;
   height: 40px;
   display: flex;
+  flex-shrink: 0;
+  margin-left: 10px;
   justify-content: center;
   align-items: center;
   text-decoration: none;
@@ -74,13 +162,13 @@ body {
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
-  width: 600px;
 }
 
 .freeQuoteNavBtn{
   width: 140px;
   height: 40px;
   display: flex;
+  flex-shrink: 0;
   justify-content: center;
   align-items: center;
   text-decoration: none;
@@ -116,7 +204,8 @@ body {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
-  width: 275px;
+  width: 375px;
+  margin-right: 15px;
 }
 
 .navbarLinks{
@@ -130,4 +219,160 @@ body {
 .navbarLinks:hover {
   color: #0085ff;
   transition: all 0.25s ease-in-out;
+}
+
+.spcBtnJQuery {
+  color: #0085ff;
+}
+
+.specialitiesListContainer {
+  position: absolute;
+  z-index: 9999;
+  background-color: white;
+  width: 325px;
+  border-radius: 10px;
+  margin-left: -102.5px;
+  margin-top: 30px;
+  padding: 1.5px 10px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.15), 0 15px 12px rgba(0,0,0,0.11);
+}
+
+.fa-angle-down {
+  margin: 0px 5px 0px 0px;
+}
+
+.spcListItem {
+  width: 100%;
+  height: 25px;
+  background-color: #f7f7f7;
+  border-radius: 7.5px;
+  box-sizing: border-box;
+  padding: 22.5px;
+  margin: 10px 0px;
+  text-decoration: none;
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-size: 16.5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.spcListItem:hover {
+  color: #0085ff;
+  transition: all 0.2s ease-in;
+}
+
+.startNowBtnSPC {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 35px;
+  background-color: #0085ff;
+  color: white;
+  border: 2.5px solid #0085ff;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  padding-bottom: 1px;
+  float: right;
+  margin: 5px 0px 8.5px 0px;
+  text-decoration: none;
+  -webkit-box-shadow: 0px 0.5px 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow:    0px 0.5px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow:         0px 0.5px 10px 0px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in;
+}
+
+.startNowBtnSPC:hover {
+  background-color: white;
+  color: #0085ff;
+  transition: all 0.2s ease-in;
+}
+
+.spcIconFix {
+  font-size: 12.5px;
+  margin: 2.2px 0px 0px 5px;
+}
+
+.menu-circle:hover {
+  cursor: pointer;
+}
+
+.menu-item,
+.menu-open-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-top: 2px;
+  margin-right: 5px;
+  transition: box-shadow .7s;
+  z-index: 2;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  /*position: absolute;*/
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 80px;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: -webkit-transform ease-out 200ms;
+  transition: -webkit-transform ease-out 200ms;
+  transition: transform ease-out 200ms;
+  transition: transform ease-out 200ms, -webkit-transform ease-out 200ms;
+  transition: background-color 0.5s;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.menu-open-button:hover {
+  cursor: pointer;
+}
+
+.menu-open {
+   display: none;
+}
+
+.lines {
+   width: 25px;
+   height: 3px;
+   background: #5685FF;
+   display: block;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   border-radius: 18.5%;
+   margin-left: -12.5px;
+   margin-top: -1.5px;
+   -webkit-transition: -webkit-transform 200ms;
+   transition: -webkit-transform 200ms;
+   transition: transform 200ms;
+   transition: transform 200ms, -webkit-transform 200ms;
+   transition: background-color 0.5s;
+}
+
+
+.line-1 {
+   -webkit-transform: translate3d(0, -8px, 0);
+   transform: translate3d(0, -8px, 0);
+}
+
+.line-2 {
+   -webkit-transform: translate3d(0, 0, 0);
+   transform: translate3d(0, 0, 0);
+}
+
+.line-3 {
+   -webkit-transform: translate3d(0, 8px, 0);
+   transform: translate3d(0, 8px, 0);
+}
+
+#ham-close {
+  font-family: "Fredoka One", sans-serif;
+  color: #5685ff;
+  font-size: 28px;
 }

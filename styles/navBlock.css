@@ -1,0 +1,175 @@
+@media (max-width: 480px) {
+  .hamNavContainer{
+    width: 85vw;
+    padding: 10px 10px 17.5px 10px;
+  }
+  .navHamUnderline {
+    width: 75vw;
+  }
+  .hamNavButtonContainer {
+    width: 75vw;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .hamNavSpcServices {
+    width: 75vw;
+  }
+  .hamNavSpcServicesContainer {
+    width: 75vw;
+  }
+  .hamNavSpcServices:hover > .hamNavUnderline {
+    width: 250px;
+    transition: all 0.5s ease-in;
+  }
+}
+
+@media (min-width: 480px) {
+  .hamNavContainer{
+    width: 400px;
+    padding: 5px 20px 20px 20px;
+  }
+  .navHamUnderline {
+    width: 300px;
+  }
+  .hamNavButtonContainer {
+    width: 310px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .hamNavSpcServices {
+    width: 300px;
+  }
+  .hamNavSpcServicesContainer {
+    width: 275px;
+  }
+  .hamNavSpcServices:hover > .hamNavUnderline {
+    width: 300px;
+    transition: all 0.5s ease-in;
+  }
+}
+
+.navigationBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 450px;
+  background-color: #f2f2f2;
+  -webkit-box-shadow: inset 0 -10px 10px -5px rgba(0, 133, 255, 0.2);
+  -moz-box-shadow: inset 0 -10px 10px -5px rgba(0, 133, 255, 0.2);
+  box-shadow: inset 0 -10px 10px -5px rgba(0, 133, 255, 0.2);
+}
+
+.hamNavContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  border-radius: 20px;
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: 0 5px 38px rgba(0,0,0,0.1), 0 7px 12px rgba(0,0,0,0.05);
+}
+
+.hamNavLinksContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 350px;
+}
+
+.hamNavLinks {
+  margin: 0px;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  color: black;
+  font-size: 20px;
+  transition: all 0.2s ease-in;
+}
+
+.hamNavLinks:hover {
+  color: #0085ff;
+  transition: all 0.2s ease-in;
+}
+
+.navHamUnderline {
+  height: 5px;
+  border-radius: 5px;
+  background-color: #0085ff;
+  margin-top: 2.5px;
+}
+
+.navHamTalkBtn {
+  width: 110px;
+  height: 40px;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  border: 2.5px solid #0085ff;
+  color: #0085ff;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 0.5px 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow:    0px 0.5px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow:         0px 0.5px 10px 0px rgba(0, 0, 0, 0.2);
+  transition: all 0.25s ease-in;
+}
+
+.navHamTalkBtn:hover {
+  background-color: #0085ff;
+  color: white;
+  transition: all 0.25s ease-in;
+}
+
+.hamNavSpcServicesContainer {
+  height: 325px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hamNavSpcServices {
+  height: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  border-radius: 15px;
+  color: black;
+  margin: 5px auto;
+  text-decoration: none;
+}
+
+.hamNavSpcServices:hover {
+  color: #0085ff;
+  transition: all 0.2s ease-in-out;
+}
+
+
+
+.spcHamNavContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hamNavSpcAddClass {
+  margin: 25px 0px 10px 0px;
+}
+
+.hamNavUnderline {
+  width: 0px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #0085ff;
+  margin-top: 5px;
+  transition: all 0.5s ease-in;
+}

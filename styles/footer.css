@@ -4,7 +4,7 @@
   align-items: center;
   background-color: black;
   width: 100vw;
-  height: 420px;
+  height: 470px;
   padding: 30px 10px;
 }
 
@@ -66,14 +66,14 @@
   font-size: 13.5px;
   font-family: "Lato", sans-serif;
   margin: -5px 0px 0px 0px;
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .footerNavLinksContainer {
   width: 950px;
-  height: 225px;
   display: flex;
   justify-content: space-around;
+  margin-bottom: 20px;
 }
 
 .footerPerHeadingContainer {
@@ -107,7 +107,7 @@
 .footerCopyrightNotice {
   color: white;
   margin: 10px 0px 0px 0px;
-  font-family: sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 16px;
   opacity: 0.5;
 }
