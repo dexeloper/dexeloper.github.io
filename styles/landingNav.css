@@ -304,7 +304,6 @@ body {
 
 .menu-item,
 .menu-open-button {
-  -webkit-tap-highlight-color: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
