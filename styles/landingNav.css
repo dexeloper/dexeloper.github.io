@@ -304,6 +304,7 @@ body {
 
 .menu-item,
 .menu-open-button {
+  -webkit-tap-highlight-color: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -316,7 +317,6 @@ body {
   z-index: 2;
   background-color: #FFFFFF;
   cursor: pointer;
-  /*position: absolute;*/
   color: #FFFFFF;
   text-align: center;
   line-height: 80px;
