@@ -1,19 +1,29 @@
-@media (min-width: 360px) and (max-width: 412px) {
+@media (min-width: 360px) and (max-width: 395px) {
   .redefineHeader {
     font-size: 26px;
   }
 }
-@media (min-width: 412px) and (max-width: 465px) {
+@media (min-width: 395px) and (max-width: 412px) {
+  .redefineHeader {
+    font-size: 28px;
+  }
+}
+@media (min-width: 412px) and (max-width: 448px) {
   .redefineHeader {
     font-size: 30px;
   }
 }
-@media (min-width: 465px) and (max-width: 557px) {
+@media (min-width: 448px) and (max-width: 465px) {
   .redefineHeader {
-    font-size: 37px;
+    font-size: 32px;
   }
 }
-@media (min-width: 557px) and (max-width: 576px) {
+@media (min-width: 465px) and (max-width: 528px) {
+  .redefineHeader {
+    font-size: 36px;
+  }
+}
+@media (min-width: 528px) and (max-width: 576px) {
   .redefineHeader {
     font-size: 40px;
   }
@@ -69,7 +79,7 @@
   }
   .redefineHeader {
     text-align: center;
-    font-size: 38px;
+    font-size: 31px;
     letter-spacing: 0.25px;
     word-spacing: 5px;
     font-weight: 900;

@@ -1,7 +1,134 @@
+@media (max-width: 576px) {
+  .readyContainer{
+    width: 90vw;
+    padding: 0px 30px 7.5px 30px;
+  }
+  .fsExtras {
+    max-width: 700px;
+  }
+  .fsSGQ {
+    font-size: 24px;
+  }
+  .fsCovered {
+    font-size: 16px;
+  }
+  .fsExtras {
+    font-size: 16px;
+  }
+  .fsInputContainer{
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 760px) {
+  .readyContainer{
+    width: 90vw;
+    padding: 0px 30px 7.5px 30px;
+  }
+  .fsExtras {
+    max-width: 700px;
+  }
+  .fsSGQ {
+    font-size: 32px;
+  }
+  .fsCovered {
+    font-size: 18px;
+  }
+  .fsExtras {
+    font-size: 18px;
+  }
+  .fsInputContainer{
+    width: 350px;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 991px) {
+  .readyContainer{
+    width: 90vw;
+    padding: 0px 50px 7.5px 50px;
+  }
+  .fsExtras {
+    max-width: 700px;
+  }
+  .fsSGQ {
+    font-size: 32px;
+  }
+  .fsCovered {
+    font-size: 18px;
+  }
+  .fsExtras {
+    font-size: 18px;
+  }
+  .fsInputContainer{
+    width: 400px;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1100px) {
+  .readyContainer{
+    width: 90vw;
+    padding: 0px 50px;
+  }
+  .fsExtras {
+    width: 700px;
+  }
+  .fsSGQ {
+    font-size: 32px;
+  }
+  .fsCovered {
+    font-size: 18px;
+  }
+  .fsExtras {
+    font-size: 18px;
+  }
+  .fsInputContainer{
+    width: 400px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .readyContainer{
+    width: 1000px;
+    padding: 0px 50px;
+  }
+  .fsExtras {
+    width: 700px;
+  }
+  .fsSGQ {
+    font-size: 32px;
+  }
+  .fsCovered {
+    font-size: 18px;
+  }
+  .fsExtras {
+    font-size: 18px;
+  }
+  .fsInputContainer{
+    width: 400px;
+  }
+  .readyContainer:after {
+    position: absolute;
+    z-index: -100;
+    opacity: 0.5;
+    width: 100%;
+    transform-origin: 50% 50%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 20px;
+    transform: rotate(-4deg) scale(1.01);
+  }
+}
+
+
 .fsContainer {
   position: relative;
   width: 100%;
-  height: 350px;
+  min-height: 370px;
   background-color: #f1f1f1;
   display: flex;
   flex-direction: column;
@@ -30,40 +157,36 @@
   flex-direction: column;
   position: relative;
   z-index: 10;
+  margin: 15px 0px 30px 0px;
   text-align: center;
   background-color: #0093E9;
   background-image: linear-gradient(135deg, #0093E9 0%, #80D0C7 100%);
   border-radius: 20px;
-  width: 1000px;
-  height: 275px;
+  min-height: 275px;
   box-sizing: border-box;
-  padding: 0px 50px;
   box-shadow: 0 12px 38px rgba(0,0,0,0.1), 0 8px 12px rgba(0,0,0,0.15);
 }
 
+
+
 .fsSGQ {
   font-family: "Lato", sans-serif;
-  font-size: 32px;
   color: white;
 }
 
 .fsCovered {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 18px;
   color: white;
   margin-top: -16px;
 }
 
 .fsExtras {
-  width: 700px;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 18px;
   color: white;
   margin: 20px 0px;
 }
 
 .fsInputContainer{
-  width: 400px;
   height: 37.5px;
   display: flex;
   align-items: center;
@@ -76,7 +199,7 @@
 }
 
 .emailDropInput {
-  width: 280px;
+  max-width: 280px;
   height: 30px;
   font-size: 16px;
   font-family: "Lato", sans-serif;
