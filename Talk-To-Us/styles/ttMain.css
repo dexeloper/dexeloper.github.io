@@ -21,6 +21,7 @@
   }
   .git-subheader {
     font-size: 16px;
+    line-height: 1.25;
   }
   .ttMajorHeader {
     font-size: 20px;
@@ -58,6 +59,7 @@
   }
   .git-subheader {
     font-size: 18px;
+    line-height: 1.5;
   }
   .ttMajorHeader {
     font-size: 24px;
@@ -95,6 +97,7 @@
   }
   .git-subheader {
     font-size: 18px;
+    line-height: 1.5;
   }
   .ttMajorHeader {
     font-size: 24px;
@@ -124,6 +127,7 @@
   }
   .git-subheader {
     font-size: 18px;
+    line-height: 1.5;
   }
   .ttMajorHeader {
     font-size: 24px;
@@ -153,6 +157,7 @@
   }
   .git-subheader {
     font-size: 18px;
+    line-height: 1.5;
   }
   .ttMajorHeader {
     font-size: 24px;
@@ -207,7 +212,6 @@
 .git-subheader {
   font-family: "Source Sans Pro", sans-serif;
   color: black;
-  line-height: 1.5;
   letter-spacing: 0.25px;
 }
 

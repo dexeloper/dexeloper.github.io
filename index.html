@@ -6,6 +6,7 @@
     <title>StellarEffex | Design Redefined.</title>
     <script src="https://kit.fontawesome.com/f6c59a561f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./styles/loader.css">
     <link rel="stylesheet" href="./styles/landingNav.css">
     <link rel="stylesheet" href="./styles/navBlock.css">
     <link rel="stylesheet" href="./styles/landingHome.css">
@@ -17,6 +18,21 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
+
+
+    <div id="loaderOverlay">
+      <svg id="animated" viewbox="0 0 100 100">
+        <circle cx="50" cy="50" r="45" fill="#0085FF"/>
+        <path id="progress" stroke-linecap="round" stroke-width="5" stroke="#fff" fill="none"
+              d="M50 10
+                 a 40 40 0 0 1 0 80
+                 a 40 40 0 0 1 0 -80">
+        </path>
+        <text id="count" x="50" y="50" text-anchor="middle" dy="7" font-size="20">100%</text>
+      </svg>
+      <p class="loadingText">Loading...</p>
+    </div>
+
 
     <!--Element 1 NavBar -->
     <nav class="stellarHomeNavBar">
@@ -67,7 +83,7 @@
           StellarEffex.
         </div>
         <div class="navRightInInContainer">
-          <a href="#" id="nav-get-started" class="startAProNavBtn" ><span class="hamNavModBtnText">Get Started</span> <i id="navIconRemove" class="fas fa-bolt navIconFix"></i></a>
+          <a href="https://immense-brook-81884.herokuapp.com/" onclick="on()" id="nav-get-started" class="startAProNavBtn loaderClassForBtn" ><span class="hamNavModBtnText">Get Started</span> <i id="navIconRemove" class="fas fa-bolt navIconFix"></i></a>
           <a href="/Talk-To-Us/index.html" id="nav-talk-to-us" class="freeQuoteNavBtn" >Talk to us <i class="far fa-arrow-alt-circle-right navIconFix"></i></a>
           <div class="linksContainer" id="links-container">
             <a href="#" class="navbarLinks" >Log In</a>
@@ -144,7 +160,7 @@
         <h1 class="homeHeadLine">Make your brand standout<br class="hideHomeHeadBreak"> with <span style="color: #0085ff">StellarEffex.</span></h1>
         <h3 class="homeSubHeadLine">With an On-Demand Design Team, StellarEffex becomes an extension of your brand conveniently taking care of all your design needs.</h3>
         <div class="homeButtonsContainer">
-          <a href="#" class="strAProHomeBtn">Start a Project <i class="fas fa-bolt homeIconFix"></i></a>
+          <a href="https://immense-brook-81884.herokuapp.com/" onclick="on()" class="strAProHomeBtn loaderClassForBtn">Start a Project <i class="fas fa-bolt homeIconFix"></i></a>
           <a href="#" class="talkHomeBtn">Talk to us <i class="far fa-arrow-alt-circle-right circle-right-fix homeIconFix"></i></a>
         </div>
         <div class="homePointsContainer">
@@ -986,7 +1002,7 @@
     </div>
 
     <div class="wavesBottom">
-      <a href="#" class="wavesStartProBtn">Start for Free!<i class="fas fa-bolt s1IconFix"></i></a>
+      <a href="https://immense-brook-81884.herokuapp.com" onclick="on()" class="wavesStartProBtn loaderClassForBtn">Start for Free!<i class="fas fa-bolt s1IconFix"></i></a>
     </div>
     <!--Element 3 Scroll 1 -->
 
@@ -1117,7 +1133,7 @@
             </svg>
           </div>
         </div>
-        <a href="#" class="wavesStartProBtn s2Btn" style="width: 250px">Send a Project for free!<i class="fas fa-bolt s1IconFix"></i></a>
+        <a href="https://immense-brook-81884.herokuapp.com/" onclick="on()" class="wavesStartProBtn s2Btn loaderClassForBtn" style="width: 250px">Send a Project for free!<i class="fas fa-bolt s1IconFix"></i></a>
       </div>
     </div>
 
@@ -1201,7 +1217,7 @@
     <!--Element 7 Footer-->
 
     <div class="footer">
-      <a href="#" class="fsKickOff">Kick off with StellarEffex today for free <i class="far fa-arrow-alt-circle-right fsIconFix"></i></a>
+      <a href="https://immense-brook-81884.herokuapp.com" onclick="on()" class="fsKickOff loaderClassForBtn">Kick off with StellarEffex today for free <i class="far fa-arrow-alt-circle-right fsIconFix"></i></a>
 
       <div class="footerBrandContainer">
         <div class="footerLogoContainer">
@@ -1290,4 +1306,7 @@
   <script src="./scripts/s1SliderScript.js"></script>
   <script src="./scripts/spcDropDown.js"></script>
   <script src="./scripts/hamburger.js"></script>
+  <script src="./scripts/loader.js"></script>
+  <script src="./index.js"></script>
+
 </html>
