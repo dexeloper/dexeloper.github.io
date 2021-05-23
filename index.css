@@ -3,12 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
-.indexPartition1{
-  width: 100vw;
-  height: 2.5px;
-  background-color: #f7f7f7;
-}
-
 @media (max-width: 359.5px) {
   html {
     display: none;

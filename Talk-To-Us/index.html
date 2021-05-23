@@ -3,10 +3,247 @@
   <head>
     <meta charset="utf-8">
     <title>StellarEffex | Talk To Us</title>
+    <link rel="stylesheet" href="./styles/ttMain.css">
+    <link rel="stylesheet" href="./styles/ttForm.css">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../styles/landingNav.css">
+    <link rel="stylesheet" href="../styles/navBlock.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/f6c59a561f.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div class="">
-      Hello There
+
+
+    <!--Element 1 NavBar -->
+    <nav class="stellarHomeNavBar" style="position: relative; z-index: 20;">
+      <div class="navbarInContainer">
+        <div class="stellarHomeLogoContainer">
+          <div id="header-menu" class="menu-circle">
+            <div class="menu-open" id="menu-open"></div>
+            <div class="menu-open-button" id="menuOpenButton">
+              <span class="lines line-1"></span>
+              <span class="lines line-2"></span>
+              <span class="lines line-3"></span>
+              <span id="ham-close">X</span>
+            </div>
+          </div>
+          <svg class="stellarHomeLogo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 513.76 463.411">
+            <g id="Group_67" data-name="Group 67" transform="translate(-536.29 -541.572)">
+              <ellipse id="Ellipse_110" data-name="Ellipse 110" cx="256.88" cy="42.93" rx="256.88" ry="42.93" transform="translate(536.29 919.124)" fill="#04f" opacity="0.14"/>
+              <g id="Group_66" data-name="Group 66">
+                <g id="Group_64" data-name="Group 64" transform="translate(5089.173 2)">
+                  <path id="Path_662" data-name="Path 662" d="M252.936,266.368A11.937,11.937,0,0,1,241,254.431V206.683a11.937,11.937,0,0,1,23.874,0v47.748A11.936,11.936,0,0,1,252.936,266.368Z" transform="translate(-4538.626 537.756)" fill="#9fbaff"/>
+                  <path id="Path_663" data-name="Path 663" d="M256,194.746v71.622a11.937,11.937,0,0,0,11.937-11.937V206.683A11.936,11.936,0,0,0,256,194.746Z" transform="translate(-4541.689 537.756)" fill="#0085ff"/>
+                  <path id="Path_664" data-name="Path 664" d="M338.656,449.854a11.934,11.934,0,0,1-10.55-6.335L271,330.159s.513-4.469,6.333-7.563,14.447,1.742,17.541,7.563L349.186,432.31a11.941,11.941,0,0,1-10.529,17.543Z" transform="translate(-4544.752 511.846)" fill="#0085ff"/>
+                  <path id="Path_665" data-name="Path 665" d="M151.921,449.854a11.941,11.941,0,0,1-10.529-17.543L196.5,330.158c3.1-5.821,10.926-10.659,16.745-7.563a15.856,15.856,0,0,1,7.468,7.715l-58.24,113.208a11.937,11.937,0,0,1-10.551,6.335Z" transform="translate(-4518 511.846)" fill="#8dadff"/>
+                  <path id="Path_666" data-name="Path 666" d="M252.936,448.977A11.937,11.937,0,0,1,241,437.04V329.284a11.937,11.937,0,1,1,23.874,0V437.04A11.936,11.936,0,0,1,252.936,448.977Z" transform="translate(-4538.626 512.721)" fill="#8dadff"/>
+                  <path id="Path_667" data-name="Path 667" d="M256,317.347v131.63a11.937,11.937,0,0,0,11.937-11.937V329.284A11.936,11.936,0,0,0,256,317.347Z" transform="translate(-4541.689 512.721)" fill="#0085ff"/>
+                  <path id="Path_668" data-name="Path 668" d="M270.685,261.087H222.937A11.937,11.937,0,0,0,211,273.024V317.8h71.622V273.024A11.937,11.937,0,0,0,270.685,261.087Z" transform="translate(-4532.5 524.209)" fill="#056ece"/>
+                  <path id="Path_669" data-name="Path 669" d="M279.874,261.087H256V317.8h35.811V273.024A11.937,11.937,0,0,0,279.874,261.087Z" transform="translate(-4541.689 524.209)" fill="#004e94"/>
+                </g>
+                <path id="Path_515" data-name="Path 515" d="M65.245,8.532V162.1a8.346,8.346,0,0,1-8.152,8.532c-15.876,0-30.57-9.342-41.372-26.288C-18.24,91.013,6.141,0,57.093,0a8.346,8.346,0,0,1,8.152,8.532Z" transform="matrix(-0.944, 0.331, -0.331, -0.944, 1038.178, 703.899)" fill="#d3f3ff" stroke="#0090ff" strokeWidth="2"/>
+                <path id="Path_593" data-name="Path 593" d="M72.9,37.684,62.8,0,0,16.827,10.094,54.511l10.1,37.69,62.8-16.827Z" transform="matrix(0.998, -0.07, 0.07, 0.998, 600.843, 704.687)" fill="#0085ff"/>
+                <path id="Path_594" data-name="Path 594" d="M0,0H65.017V39.019H0Z" transform="translate(614.755 758.355) rotate(-19.009)" fill="#0072da"/>
+                <path id="Path_595" data-name="Path 595" d="M99.877,62.676,82.972,0,20.03,16.907,0,65.09,8.471,87.169l15.143,39.464,30.227,15.639,62.945-16.907Z" transform="matrix(0.998, -0.07, 0.07, 0.998, 842.73, 588.48)" fill="#474f54"/>
+                <path id="Path_596" data-name="Path 596" d="M45.37,79.6,108.315,62.69,91.406,0,0,24.493,15.143,63.957Z" transform="matrix(0.998, -0.07, 0.07, 0.998, 855.553, 650.413)" fill="#32393f"/>
+                <path id="Path_597" data-name="Path 597" d="M242.916,62.638,226.022,0,0,60.342l16.916,62.852,16.9,62.775,226.022-60.6Z" transform="matrix(0.998, -0.07, 0.07, 0.998, 638.419, 619.715)" fill="#9fbaff"/>
+                <path id="Path_598" data-name="Path 598" d="M242.918,62.728,226,0,0,60.556l16.9,62.775Z" transform="matrix(0.998, -0.07, 0.07, 0.998, 659.663, 681.021)" fill="#0085ff"/>
+                <path id="Path_599" data-name="Path 599" d="M32.049,47.985,19.192,0,0,5.143,12.856,53.128l12.856,47.985L44.9,95.971Z" transform="matrix(0.998, -0.07, 0.07, 0.998, 583.082, 711.674)" fill="#2c2c2c"/>
+                <path id="Path_601" data-name="Path 601" d="M48.685,87.928,25.121,0,0,6.731,23.565,94.659,48.66,184.667l25.121-6.731Z" transform="matrix(0.998, -0.07, 0.07, 0.998, 904.304, 555.495)" fill="#9fbaff"/>
+                <path id="Path_602" data-name="Path 602" d="M50.216,90.008,25.12,0,0,6.731,25.095,96.74Z" transform="matrix(0.998, -0.07, 0.07, 0.998, 933.946, 641.565)" fill="#0085ff"/>
+                <path id="XMLID_331_" d="M0,0H48.4V29.312H0Z" transform="matrix(0.921, 0.391, -0.391, 0.921, 819.917, 739.437)" fill="#00465f"/>
+                <path id="XMLID_351_" d="M273.352,291.99a39.535,39.535,0,1,1,39.535-39.535A39.58,39.58,0,0,1,273.352,291.99Zm0-53.337a13.8,13.8,0,1,0,13.8,13.8A13.819,13.819,0,0,0,273.352,238.653Z" transform="translate(529.757 481.824)" fill="#056ece" stroke="#000" strokeWidth="3"/>
+                <path id="XMLID_1056_" d="M279.909,212.921v25.732a13.8,13.8,0,1,1,0,27.606v25.732a39.535,39.535,0,1,0,0-79.07Z" transform="translate(523.2 481.824)" fill="#004e94" stroke="#000" strokeWidth="3"/>
+              </g>
+              <path id="XMLID_335_" d="M114.586,477.546h59.458v25.732H114.586Z" transform="translate(576.718 463.18)" fill="#00465f"/>
+              <path id="XMLID_335_2" data-name="XMLID_335_" d="M114.586,477.546h59.458v25.732H114.586Z" transform="translate(659.718 476.18)" fill="#00465f"/>
+              <path id="XMLID_335_3" data-name="XMLID_335_" d="M114.586,477.546h59.458v25.732H114.586Z" transform="translate(738.718 463.18)" fill="#00465f"/>
+            </g>
+          </svg>
+          StellarEffex.
+        </div>
+        <div class="navRightInInContainer">
+          <a href="#" id="nav-get-started" class="startAProNavBtn" ><span class="hamNavModBtnText">Get Started</span> <i id="navIconRemove" class="fas fa-bolt navIconFix"></i></a>
+          <a href="./Talk-To-Us/index.html" id="nav-talk-to-us" class="freeQuoteNavBtn" title="(Page has already been opened.)" >Talk to us <i class="far fa-arrow-alt-circle-right navIconFix"></i></a>
+          <div class="linksContainer" id="links-container">
+            <a href="#" class="navbarLinks" >Log In</a>
+            <a href="#" class="navbarLinks" >Pricing</a>
+            <a href="#" class="navbarLinks" >Our Work</a>
+            <a class="navbarLinks" id="spcDropBtn" style="cursor: pointer;" ><i class="fas fa-angle-down"></i>Specialities</a>
+            <div class="specialitiesContainer">
+              <div class="specialitiesListContainer" id="spcDrop" >
+                <a href="#" class="spcListItem">
+                  Website Design / Landing Page
+                </a>
+                <a href="#" class="spcListItem">
+                  App and Web Product Design (UI/UX)
+                </a>
+                <a href="#" class="spcListItem">
+                  Presentation Design
+                </a>
+                <a href="#" class="spcListItem">
+                  Pitch Deck
+                </a>
+                <a href="#" class="spcListItem">
+                  Case Study
+                </a>
+                <a href="#" class="spcListItem">
+                  Document
+                </a>
+                <a href="#" class="startNowBtnSPC">Start Now<i class="fas fa-bolt spcIconFix"></i></a hre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--Element 1 NavBar -->
+
+    <!--Element 2 Contact Form -->
+    <div class="tt-background-container">
+      <div class="tt-container">
+        <div class="tt-left-container">
+          <h1 class="git-header"><span class="git-header-span">Get in touch</span><br>with StellarEffex</h1>
+          <p class="git-subheader">Learn how easy and affordable it is to work with StellarEffex in a small 15 minute session where you will get to know the flexible design process we implement and a perfect opportunity to solve all your essential queries with the platform specialist.</p>
+          <h2 class="ttMajorHeader">All the major aspects covered: </h2>
+          <div class="tt-list">
+            <div class="tt-list-per-container">
+              <i class="far fa-check-circle"></i>
+              <p style="margin: 0px" >StellarEffex workflow</p>
+            </div>
+            <div class="tt-list-per-container">
+              <i class="far fa-check-circle"></i>
+              <p style="margin: 0px" >Understanding how our Pricing system is going to help you save a lot of money.</p>
+            </div>
+            <div class="tt-list-per-container">
+              <i class="far fa-check-circle"></i>
+              <p style="margin: 0px" >Why our On-Demand design platform is a lot better than hiring individual freelancers.</p>
+            </div>
+            <div class="tt-list-per-container">
+              <i class="far fa-check-circle"></i>
+              <p style="margin: 0px" >Know which team is the best for your current project.</p>
+            </div>
+          </div>
+        </div>
+        <div class="ttFormContainer">
+          <h1 class="ttformHeader">Book a free session</h1>
+          <form id="ttForm" class="" action="" method="post">
+            <div class="firstLastContainer">
+              <div class="labelInputContainer" style="margin: 10px 0px 0px 0px;">
+                <label class="stLabel" for="id-first-name">First Name*</label>
+                <input type="text" class="styledInput" id="id-first-name" name="" value="" placeholder="Eg. John" required>
+              </div>
+              <div class="labelInputContainer" style="margin: 10px 0px 0px 0px;">
+                <label class="stLabel" for="id-last-name">Last Name*</label>
+                <input type="text" class="styledInput" id="id-last-name" name="" value="" placeholder="Eg. Doe" required>
+              </div>
+            </div>
+            <div class="labelInputContainer">
+              <label class="stLabel" for="id-work-email">Work Email*</label>
+              <input type="email" class="styledInput" id="id-work-email" name="" value="" placeholder="Your Email" required>
+              <p class="emailWarning" id="email-warning">Invalid Email</p>
+            </div>
+            <div class="labelInputContainer">
+              <label class="stLabel" for="id-company-name">Company / Start-Up Name</label>
+              <input type="text" class="styledInput" id="id-company-name" name="" value="" placeholder="Eg. Freddy Fazbear Co.">
+            </div>
+            <div class="labelInputContainer">
+              <label class="stLabel" for="id-message">Any message for us? (optional)</label>
+              <textarea type="number" class="styledInput" id="id-message" name="" value="" placeholder="Eg. Tell us more about your requirements..." rows="8" style="height: auto; padding: 5px 10px;"></textarea>
+            </div>
+            <button id="tt-form-submit" class="ttFormSubmitBtn" type="submit" name="">Send Message</button>
+          </form>
+        </div>
+      </div>
     </div>
+    <!--Element 2 Contact Form -->
+
+    <!--Element 3 Footer-->
+
+    <div class="footer">
+      <a href="#" class="fsKickOff">Kick off with StellarEffex today for free <i class="far fa-arrow-alt-circle-right fsIconFix"></i></a>
+
+      <div class="footerBrandContainer">
+        <div class="footerLogoContainer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" viewBox="0 0 159.426 144.681">
+            <g id="logo" transform="translate(-478.29 -176.579)">
+              <ellipse id="Ellipse_110" data-name="Ellipse 110" cx="79.713" cy="13.322" rx="79.713" ry="13.322" transform="translate(478.29 294.617)" fill="#97b2ff" opacity="0.2"/>
+              <g id="Group_66" data-name="Group 66" transform="translate(492.81 177.857)">
+                <g id="Group_64" data-name="Group 64" transform="translate(39.746 59.47)">
+                  <path id="Path_662" data-name="Path 662" d="M244.7,216.971a3.7,3.7,0,0,1-3.7-3.7V198.45a3.7,3.7,0,1,1,7.408,0v14.817A3.7,3.7,0,0,1,244.7,216.971Z" transform="translate(-216.056 -194.746)" fill="#9fbaff"/>
+                  <path id="Path_663" data-name="Path 663" d="M256,194.746v22.225a3.7,3.7,0,0,0,3.7-3.7V198.45A3.7,3.7,0,0,0,256,194.746Z" transform="translate(-227.352 -194.746)" fill="#0085ff"/>
+                  <path id="Path_664" data-name="Path 664" d="M291.995,361.419a3.7,3.7,0,0,1-3.274-1.966L271,324.277a3.407,3.407,0,0,1,1.965-2.347c1.806-.96,4.483.541,5.443,2.347l16.854,31.7a3.706,3.706,0,0,1-3.267,5.444Z" transform="translate(-238.648 -290.297)" fill="#0085ff"/>
+                  <path id="Path_665" data-name="Path 665" d="M143.694,361.419a3.705,3.705,0,0,1-3.267-5.444l17.1-31.7c.961-1.806,3.39-3.308,5.2-2.347a4.92,4.92,0,0,1,2.317,2.394l-18.073,35.13A3.7,3.7,0,0,1,143.694,361.419Z" transform="translate(-139.992 -290.296)" fill="#8dadff"/>
+                  <path id="Path_666" data-name="Path 666" d="M244.7,358.193a3.7,3.7,0,0,1-3.7-3.7V321.051a3.7,3.7,0,1,1,7.408,0v33.438A3.7,3.7,0,0,1,244.7,358.193Z" transform="translate(-216.056 -287.071)" fill="#8dadff"/>
+                  <path id="Path_667" data-name="Path 667" d="M256,317.347v40.846a3.7,3.7,0,0,0,3.7-3.7V321.051A3.7,3.7,0,0,0,256,317.347Z" transform="translate(-227.352 -287.071)" fill="#0085ff"/>
+                  <path id="Path_668" data-name="Path 668" d="M229.521,261.087H214.7a3.7,3.7,0,0,0-3.7,3.7v13.893h22.225V264.791A3.7,3.7,0,0,0,229.521,261.087Z" transform="translate(-193.465 -244.704)" fill="#056ece"/>
+                  <path id="Path_669" data-name="Path 669" d="M263.408,261.087H256v17.6h11.113V264.791A3.7,3.7,0,0,0,263.408,261.087Z" transform="translate(-227.352 -244.704)" fill="#004e94"/>
+                </g>
+                <path id="Path_515" data-name="Path 515" d="M20.246,2.647V50.3a2.59,2.59,0,0,1-2.53,2.647c-4.927,0-9.486-2.9-12.838-8.157C-5.66,28.242,1.906,0,17.717,0a2.59,2.59,0,0,1,2.53,2.647Z" transform="matrix(-0.944, 0.331, -0.331, -0.944, 141.222, 49.973)" fill="#d3f3ff" stroke="#0090ff" stroke-width="2"/>
+                <path id="Path_593" data-name="Path 593" d="M22.62,11.694,19.488,0,0,5.222,3.132,16.916l3.134,11.7L25.754,23.39Z" transform="matrix(0.998, -0.07, 0.07, 0.998, 5.511, 50.218)" fill="#0085ff"/>
+                <path id="Path_594" data-name="Path 594" d="M0,0H20.175V12.108H0Z" transform="translate(9.829 66.872) rotate(-19.009)" fill="#0072da"/>
+                <path id="Path_595" data-name="Path 595" d="M30.993,19.449,25.747,0,6.216,5.246,0,20.2,2.629,27.05,7.328,39.3l9.38,4.853L36.24,38.9Z" transform="matrix(0.998, -0.07, 0.07, 0.998, 80.572, 14.157)" fill="#474f54"/>
+                <path id="Path_596" data-name="Path 596" d="M14.079,24.7l19.532-5.246L28.364,0,0,7.6,4.7,19.847Z" transform="matrix(0.998, -0.07, 0.07, 0.998, 84.551, 33.376)" fill="#32393f"/>
+                <path id="Path_597" data-name="Path 597" d="M75.38,19.437,70.137,0,0,18.725l5.249,19.5,5.243,19.48L80.63,38.9Z" transform="matrix(0.998, -0.07, 0.07, 0.998, 17.172, 23.85)" fill="#9fbaff"/>
+                <path id="Path_598" data-name="Path 598" d="M75.38,19.465,70.131,0,0,18.791l5.243,19.48Z" transform="matrix(0.998, -0.07, 0.07, 0.998, 23.764, 42.874)" fill="#0085ff"/>
+                <path id="Path_599" data-name="Path 599" d="M9.945,14.89,5.956,0,0,1.6l3.989,14.89,3.989,14.89,5.956-1.6Z" transform="matrix(0.998, -0.07, 0.07, 0.998, 0, 52.386)" fill="#2c2c2c"/>
+                <path id="Path_601" data-name="Path 601" d="M15.108,27.285,7.8,0,0,2.089,7.313,29.374,15.1,57.3l7.8-2.089Z" transform="matrix(0.998, -0.07, 0.07, 0.998, 99.679, 3.922)" fill="#9fbaff"/>
+                <path id="Path_602" data-name="Path 602" d="M15.582,27.931,7.8,0,0,2.089,7.787,30.019Z" transform="matrix(0.998, -0.07, 0.07, 0.998, 108.877, 30.63)" fill="#0085ff"/>
+                <path id="XMLID_331_" d="M0,0H15.02V9.1H0Z" transform="matrix(0.921, 0.391, -0.391, 0.921, 73.493, 61.001)" fill="#00465f"/>
+                <path id="XMLID_351_" d="M246.085,237.456a12.268,12.268,0,1,1,12.268-12.268A12.282,12.282,0,0,1,246.085,237.456Zm0-16.551a4.283,4.283,0,1,0,4.283,4.283A4.288,4.288,0,0,0,246.085,220.905Z" transform="translate(-177.808 -165.788)" fill="#056ece" stroke="#000" stroke-width="3"/>
+                <path id="XMLID_1056_" d="M279.909,212.921v7.985a4.283,4.283,0,0,1,0,8.566v7.985a12.268,12.268,0,0,0,0-24.536Z" transform="translate(-211.632 -165.788)" fill="#004e94" stroke="#000" stroke-width="3"/>
+              </g>
+              <path id="XMLID_335_" d="M114.586,477.546h18.451v7.985H114.586Z" transform="translate(411.807 -176.225)" fill="#00465f"/>
+              <path id="XMLID_335_2" data-name="XMLID_335_" d="M114.586,477.546h18.451v7.985H114.586Z" transform="translate(437.563 -172.191)" fill="#00465f"/>
+              <path id="XMLID_335_3" data-name="XMLID_335_" d="M114.586,477.546h18.451v7.985H114.586Z" transform="translate(462.077 -176.225)" fill="#00465f"/>
+            </g>
+          </svg>
+        </div>
+        <div class="logoHeadSubHead">
+          <h2 class="footerBrandName">StellarEffex.</h2>
+          <p class="footerSlogan">Design Redefined.</p>
+        </div>
+
+      </div>
+
+      <div class="footerNavLinksContainer">
+        <div class="footerPerHeadingContainer">
+          <p class="footerLinkHead">Get in touch</p>
+          <a href="#" class="footerLink">Contact Sales</a>
+          <a href="mailto:sales@stellareffex.com" class="footerLink">sales@stellareffex.com</a>
+        </div>
+        <div id="footerModServices" class="footerPerHeadingContainer">
+          <p class="footerLinkHead">Services</p>
+          <a href="#" class="footerLink">Web Design</a>
+          <a href="#" class="footerLink">UI/UX Design</a>
+          <a href="#" class="footerLink">Presentation Design</a>
+          <a href="#" class="footerLink">Pitch Deck</a>
+          <a href="#" class="footerLink">Case Study</a>
+          <a href="#" class="footerLink">Document</a>
+        </div>
+        <div class="footerPerHeadingContainer">
+          <p class="footerLinkHead">Company</p>
+          <a href="#" class="footerLink">Portfolio</a>
+          <a href="#" class="footerLink">Pricing</a>
+          <a href="#" class="footerLink">About</a>
+          <a href="#" class="footerLink">Services</a>
+        </div>
+        <div class="footerPerHeadingContainer">
+          <p class="footerLinkHead">Legal</p>
+          <a href="#" class="footerLink">Privacy Policy</a>
+          <a href="#" class="footerLink">Terms of Service</a>
+        </div>
+      </div>
+      <hr style="background: white; width: 79vw; opacity: 0.5;">
+      <p id="footerModEnding" class="footerCopyrightNotice">© StellarEffex 2021. All rights reserved.</p>
+    </div>
+    <!--Element 3 Footer-->
+
+
   </body>
+  <script src="../scripts/spcDropDown.js"></script>
+  <script src="../scripts/hamburger.js"></script>
+
+  <script src="./scripts/ttDisable.js"></script>
 </html>

@@ -1,0 +1,157 @@
+@media (max-width: 576px) {
+  .ttFormContainer {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .firstLastContainer {
+    flex-direction: column;
+  }
+  #id-first-name {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 760px) {
+  .ttFormContainer {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .firstLastContainer {
+    flex-direction: column;
+  }
+  #id-first-name {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 991px) {
+  .ttFormContainer {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .firstLastContainer {
+    flex-direction: column;
+  }
+  #id-first-name {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1300px) {
+  .ttFormContainer {
+    width: 450px;
+    margin-left: 30px;
+  }
+  #id-first-name {
+    margin-right: 5px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .ttFormContainer {
+    width: 450px;
+    margin-left: 30px;
+  }
+  #id-first-name {
+    margin-right: 5px;
+  }
+}
+
+.ttFormContainer {
+  min-height: 635px;
+  background-color: white;
+  padding: 10px 30px 30px 30px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  box-sizing: border-box;
+}
+
+.ttformHeader {
+  font-family: "Lato", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.firstLastContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.stLabel {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.labelInputContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 31px 0px;
+  box-sizing: border-box;
+}
+
+.styledInput {
+  height: 40px;
+  outline: none;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  margin: 5px 0px 0px 0px;
+  border: 2px solid #adadad;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-bottom: 2.75px;
+  transition: all 0.2s ease-in;
+}
+
+.styledInput:focus {
+  border: 2px solid #0085ff;
+  transition: all 0.2s ease-in;
+}
+
+.ttFormSubmitBtn {
+  width: 100%;
+  height: 45px;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: white;
+  background-color: #0085ff;
+  border: none;
+  margin-top: -7px;
+  padding-bottom: 1px;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.4) 0px 10px 60px -12px, rgba(0, 0, 0, 0.3) 0px 2px 36px -18px;
+  transition: all 0.2s ease-in;
+}
+
+.ttFormSubmitBtn:hover {
+  transform: translateY(-3px);
+  transition: all 0.2s ease-in;
+}
+
+.submission-processing {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.emailWarning {
+  position: absolute;
+  transform: translateY(59px);
+  color: red;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+  margin: 2px 0px 0px 0px;
+}
+
+.emailInputError {
+  border: 2px solid red;
+  color: red;
+}
